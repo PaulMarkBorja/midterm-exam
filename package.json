@@ -25,7 +25,7 @@
     "laravel-mix": "^1.4",
     "less": "^3.8.0",
     "less-loader": "^4.1.0",
-    "lodash": "^4.17.4",
+    "lodash": "^4.17.13",
     "simple-line-icons": "^2.4.1",
     "vue": "^2.5.14",
     "vue-axios": "^2.0.2",
