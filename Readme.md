@@ -28,7 +28,7 @@ php artisan db:seed
 
 ->yes
 ->yes
-->SuperAdmin,Admin,Driver,Customer
+->SuperAdmin
 
 View the website:
 
