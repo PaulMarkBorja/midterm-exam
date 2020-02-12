@@ -1,0 +1,438 @@
+.modal-backdrop {
+  display: none;
+}
+
+.modal {
+  background: rgba(0,0,0,0.5);
+}
+
+.modal-dialog {
+    margin: 130px auto;
+}
+
+.input-group.is-invalid {
+  ~ .invalid-feedback {
+    display: block;
+  }
+}
+
+.logo
+{
+    width: 40%;
+    margin-left: 30%;
+    margin-bottom: 12px;
+}
+.add
+{
+  margin-bottom:24px;
+  text-align:right ;
+}
+.container {
+    margin-top: 14px;
+    // margin-top: 32px;
+    padding: 0;
+}
+
+.data-container {
+    margin-bottom: 16px;
+    border-radius:5px;
+//    padding: 16px;
+
+    .area-header
+    {
+      text-transform: uppercase;
+      margin-bottom: 16px;
+      text-align: center;
+    }
+
+    .area-division-header
+    {
+      text-transform: uppercase;
+    //  color: #c72222;
+      margin-bottom: 16px;
+    }
+
+    .subsets1
+    {
+      margin-left: 16px;
+      margin-right: 16px;
+      margin-top:8px;
+      p
+      {
+        margin-bottom: 0;
+        text-align: justify;
+      }
+    }
+
+    .subsets2
+    {
+      margin-left: 24px;
+      margin-right: 73px;
+      margin-top:8px;
+      p
+      {
+        margin-bottom: 0;
+        text-align: justify;
+      }
+    }
+
+    .subsets3
+    {
+      margin-left: 32px;
+      margin-right: 67px;
+      margin-top:8px;
+      p
+      {
+        margin-bottom: 0;
+        text-align: justify;
+      }
+    }
+
+    .area-summary
+    {
+      margin-top: 16px;
+      textarea
+      {
+        overflow: auto;
+        resize: vertical;
+        width: 100%;
+        height: 100px;
+      }
+    }
+
+    .evidence
+    {
+      margin-top:16px;
+      margin-bottom: 30px;
+    }
+
+    .filename-evidence {
+      border: 1px solid lightgray;
+      padding: 8px;
+      margin-right: -17px;
+      line-height: 50px;
+      cursor:pointer;
+      white-space: pre-wrap;
+    }
+    .file
+    {
+      margin-left:27px;
+    }
+    .close
+    {
+      position:absolute;
+      color:red;
+    }
+}
+
+.general_average
+{
+  text-align:right;
+  font-weight:bold;
+}
+
+.header-title
+{
+	text-align: center;
+  margin-bottom: 5px;
+}
+.border
+{
+  border:1px solid gray;
+  padding:5px;
+  margin-bottom: 10px;
+}
+
+
+.table thead th, .table tbody td {
+    vertical-align: middle !important;
+    text-align:center;
+    white-space: pre-wrap !important;
+}
+
+
+.subset_table
+{
+  margin-top: 8px;
+  
+  .form-group {
+      margin-bottom: 0;
+  }
+  .table th, .table td {
+    padding: 0;
+  }
+}
+
+.areaDivision
+{
+  padding-left: 30px;
+}
+
+.data-container
+{
+  position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid #c2cfd6;
+    padding: 24px;
+    margin-top: 24px;
+}
+
+.parent-div {display: table;}
+.child {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.evaluation
+{
+  p
+  {
+    text-align:justify;
+  }
+  .criteria
+  {
+    margin-top:8px;
+    margin-bottom:24px;
+    p
+    {
+      text-indent:24px;
+      text-align:justify;
+    }
+  }
+  .introduction
+  {
+    text-indent:24px;
+    text-align:justify;
+  }
+  .rate
+  {
+    font-weight:bold;
+    text-align:center;
+    align-self: center !important;
+
+  }
+  .e_textarea
+  {
+    margin-top: 16px;
+    margin-bottom: 40px;
+    font-style: oblique;
+  }
+
+  .e_table
+  {
+    margin-top:16px;
+  }
+  .t_cell
+  {
+    border: none !important;
+    padding:0!important;
+  }
+  .e_checkbox
+  {
+    margin-top:16px;
+  }
+}
+.no-margin
+{
+  width:100%;
+  
+    margin-left: 0 !important;
+  .sidebar-fixed .app-footer {
+    margin-left: 0 !important;
+}
+
+  .card-header .btn {
+      margin-top: 0;
+  }
+}
+
+.view-evaluation
+{
+  .rate
+  {
+    font-weight:bold;
+    text-align:center;
+    align-self: center !important;
+
+  }
+  .e_textarea
+  {
+    margin-top: 16px;
+    margin-bottom: 40px;
+    font-style: oblique;
+    border: 1px solid lightgray;
+    padding: 14px;
+  }
+  .e_table
+  {
+    margin-top:16px;
+  }
+  .e_checkbox
+  {
+    margin-top:16px;
+  }
+}
+
+.no-border
+{
+  border: transparent!important;
+  vertical-align:middle !important;
+  text-align:center !important;
+}
+
+.borderless
+{
+  border-bottom: 1px solid Transparent!important;
+  border-left: 1px solid Transparent!important;
+  border-top: 1px solid Transparent!important;
+  text-align:right !important;
+  font-weight:bold;
+}
+
+// input[type="file"]{
+//         opacity: 0;
+//         width: 100%;
+//         height: 200px;
+//         position: absolute;
+//         cursor: pointer;
+//     }
+    .filezone {
+        outline: 2px dashed grey;
+        outline-offset: -10px;
+        background: #ccc;
+        color: dimgray;
+        padding: 10px 10px;
+        min-height: 200px;
+        position: relative;
+        cursor: pointer;
+    }
+    .filezone:hover {
+        background: #c0c0c0;
+    }
+
+    .filezone p {
+        font-size: 1.2em;
+        text-align: center;
+        padding: 50px 50px 50px 50px;
+    }
+    div.file-listing img{
+        max-width: 90%;
+    }
+
+    div.file-listing{
+        margin: auto;
+        padding: 10px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    div.file-listing img{
+        height: 100px;
+    }
+    div.success-container{
+        text-align: center;
+        color: green;
+    }
+
+    div.remove-container{
+        text-align: center;
+    }
+
+    div.remove-container a{
+        color: red;
+        cursor: pointer;
+    }
+
+    a.submit-button{
+        display: block;
+        margin: auto;
+        text-align: center;
+        width: 200px;
+        padding: 10px;
+        text-transform: uppercase;
+        background-color: #CCC;
+        color: white;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+
+.title-page {
+    text-align: center;
+    text-transform:uppercase;
+    margin-top: 20%;
+
+}
+.individual-table
+{
+    border: 1px solid lightgrey;
+    padding: 8px;
+    margin-bottom: 16px;
+}
+
+.areas-dashboard
+{
+  margin-top:5%;
+  margin-left:10%;
+  margin-right:10%;
+}
+
+.custom-control-description {
+  color: unset !important;
+}
+
+.custom-checkbox .custom-control-input:checked ~ .custom-control-indicator {
+  background-color:#20a8d8;
+}
+
+.checkboxlist
+{
+    border: 1px solid lightgrey;
+    padding: 8px;
+    margin-bottom: 16px;
+}
+
+.checkbox-options
+{
+  margin-left:16px;
+  margin-right:16px;
+}
+
+.fa-window-close
+{
+  color: #f86c6b;
+}
+
+.app-header
+{
+  padding-right: 16px !important;
+}
+.table
+{
+  text-align: center !important;
+}
+
+.form-control:disabled, .form-control[readonly] {
+    background-color: unset !important;
+    font-weight: bolder !important;
+    text-align: center !important
+}
+
+.img-avatar
+{
+  border: 1px solid lightgray !important;
+}
+
+.program
+{
+  margin-left: auto;
+    margin-right: auto;
+}
