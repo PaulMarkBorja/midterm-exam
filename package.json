@@ -60,6 +60,6 @@
     "vue-toastr-2": "0.0.9",
     "vue2-datatable-component": "^2.3.1",
     "vue2-datepicker": "^1.8.3",
-    "xlsx": "^0.13.3"
+    "xlsx": "^0.17.0"
   }
 }
