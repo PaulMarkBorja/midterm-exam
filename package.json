@@ -41,7 +41,7 @@
     "babel-polyfill": "^6.26.0",
     "bootstrap-sass": "^3.4.0",
     "fs": "0.0.1-security",
-    "moment": "^2.21.0",
+    "moment": "^2.29.2",
     "popper.js": "^1.12.9",
     "toastr": "^2.1.4",
     "vue-badger-accordion": "^1.0.8",
